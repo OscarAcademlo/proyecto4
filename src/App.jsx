@@ -24,7 +24,7 @@ function App() {
   const handleOpenForm = () => setIsFormOpen(true)
 
   const handleCloseForm = () => {
-    setIsFormOpen(false)
+    setIsFormOpen()
   }
   
   return (

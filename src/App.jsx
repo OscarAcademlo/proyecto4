@@ -15,6 +15,7 @@ function App() {
     axios.get(URL)
       .then(res => setUsers(res.data))
       .catch(err => console.log(err))
+      
   }
 
   useEffect(() => {

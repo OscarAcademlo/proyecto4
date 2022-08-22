@@ -22,13 +22,23 @@ const UsersList = ({ user, getAllUsers, setUpdateInfo, handleOpenForm }) => {
     <article className="card">
       <ul className="card__list">
         <li className="card__item">
+        <div className="disp">
+        <i className="fa-solid fa-user"></i>  
           <span className="card__span">{user.first_name} {user.last_name}</span>
-        </li>
+                </div>
+                </li>
         <li className="card__item">
+        <div className="disp"></div>
+        <i className="fa-solid fa-envelope"></i>
           <span className="card__span">{user.email}</span>
+          <div className="disp"></div>
         </li>
         <li className="card__item">
+        <div className="disp">
+        <i className="fa-solid fa-calendar-days"></i> 
           <span className="card__span">{user.birthday}</span>
+          
+          </div>
         </li>
       </ul>
       <footer className="card__footer" >

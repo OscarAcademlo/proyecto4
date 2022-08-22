@@ -40,8 +40,8 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
 
   const resetFuntion=()=>{
     reset(defaultValue)
-    handleCloseForm()
-    setUpdateInfo()
+ handleCloseForm()
+setUpdateInfo()
   }
     
   const {register, reset, handleSubmit} = useForm()

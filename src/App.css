@@ -54,18 +54,21 @@ h1 {
 .card__footer {
   display: flex;
   gap: 20px; 
+  justify-content: flex-end;
 }
 .card__btn {
   border: none;
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
+  
 }
 
 .card__btn:nth-child(1){
   background-image: url(../public/bx-trash.svg);
   background-color: brown;
   color: white;
+  
 }
 .card__btn:nth-child(2){
   background-image: url(../public/bx-edit.svg);
